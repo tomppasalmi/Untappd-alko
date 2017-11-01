@@ -1,8 +1,8 @@
 {
-  "name": "My Untapped rates on Alko.fi",
+  "name": "My Untappd rates on Alko.fi",
   "manifest_version": 1,
   "version": "1.0",
-  "description": "Untapped rates to alko.fi website",
+  "description": "Untappd rates to alko.fi website",
   "permissions": ["tabs", "https://api.untappd.com/*"],
   "content_scripts": [
     {
