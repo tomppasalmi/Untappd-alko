@@ -1,0 +1,20 @@
+{
+  "name": "My Untapped rates on Alko.fi",
+  "manifest_version": 1,
+  "version": "1.0",
+  "description": "Untapped rates to alko.fi website",
+  "permissions": ["tabs", "https://api.untappd.com/*"],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.alko.fi/tuotteet/*",
+        "http://*.alko.fi/tuotteet/*"
+      ],
+      "js": [
+        "js/jquery.js",
+        "js/script.js"
+
+      ]
+    }
+  ]
+}
