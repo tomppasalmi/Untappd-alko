@@ -7,7 +7,7 @@ Do not work in every beer in alko webstore. I am using beer name in webstore to 
 
 ## Untappd API credentials
 
-First obtain Untapped credentials here.
+First obtain Untappd credentials here.
 > https://untappd.com/api/register?register=new
 
 ## Set-up
@@ -15,9 +15,9 @@ First obtain Untapped credentials here.
 Open script.js enter the Untappd credentials
 
 ```
-var id = "UNTAPPED Client ID here";
-var secret = "UNTAPPED Secret here";
-var token = "UNTAPPED Token here";
+var id = "UNTAPPD Client ID here";
+var secret = "UNTAPPD Secret here";
+var token = "UNTAPPD Token here";
 ```
 
 ## Add Extension to Google Chrome
