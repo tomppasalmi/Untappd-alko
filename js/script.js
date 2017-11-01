@@ -1,15 +1,15 @@
 'use strict';
 
-var id = "UNTAPPED Client ID here";
-var secret = "UNTAPPED Secret here";
-var token = "UNTAPPED Token here";
+var id = "UNTAPPD Client ID here";
+var secret = "UNTAPPD Secret here";
+var token = "UNTAPPD Token here";
 
 
 // Working in https://www.alko.fi/
 function postBeerInfo(rate) {
   $('div.hard-facts').find('ul.flexible-block-grid.small-up-1').first().prepend(
     '<li class="column">' +
-    '<div class="small-b1 h8 fact-label">MY UNTAPPDED RATE</div>' +
+    '<div class="small-b1 h8 fact-label">MY UNTAPPD RATE</div>' +
       '<div class="small-h6 h6 fact-data">' + rate + '</div>' +
       '</li>');
 
